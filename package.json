@@ -1,0 +1,39 @@
+{
+  "name": "reactapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "backbone": "^1.1.2",
+    "css-loader": "^0.9.1",
+    "file-loader": "^0.8.1",
+    "html-loader": "^0.2.3",
+    "jquery": "^2.1.3",
+    "lodash": "^3.5.0",
+    "react": "^0.13.0",
+    "react-bootstrap": "^0.16.1",
+    "react-hot-loader": "^1.2.3",
+    "react-router": "^0.13.2",
+    "style-loader": "^0.8.3",
+    "url-loader": "^0.5.5",
+    "webpack": "^1.7.3"
+  },
+  "devDependencies": {
+    "babel-core": "^4.7.12",
+    "babel-loader": "^4.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack-dev-server  --build --devtool eval --progress --colors --watch --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valorbreak/reactapp.git"
+  },
+  "author": "Uri Acuesta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valorbreak/reactapp/issues"
+  },
+  "homepage": "https://github.com/valorbreak/reactapp"
+}
